@@ -1,0 +1,6 @@
+nav{ float: left; width: 100%; background: #c00}
+nav ul{ display:  table; width: 100%; text-align:  center}
+nav li{ display:  table-cell; padding: 10px 0}
+nav li a{ color: #fff; font:bold 14px arial; padding: 10px 0}
+nav li a:hover{ color: #000}
+.active{ border-bottom: 2px solid #000}

@@ -1,0 +1,15 @@
+
+<div class="mainContainer">  
+    <div class="meddSection">
+        <ul>
+            <li *ngFor="let listSec of serviceJsonData">
+                <div class="leftSec">
+                    <a href="/story/{{listSec.snippet.resourceId.videoId}}"><img src="{{listSec.snippet.thumbnails.medium.url}}"  alt=""/></a>
+                    <span class="youtubeIcon"><img src="assets/images/youtube-icon.png" > </span>
+                    <h2>{{listSec.snippet.title}}</h2>
+                    <p>{{listSec.snippet.description}}</p>  
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

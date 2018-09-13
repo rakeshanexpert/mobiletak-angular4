@@ -1,0 +1,40 @@
+<div class="mainContainer">
+  <header>
+      <div class="leftHeaderPart">
+          <div class="mobileMenu" (click)="openNav()">
+              <img src="assets/images/mobileMenu.jpg" alt="" />
+          </div>
+          <div class="logo">
+              <a href="#"><img src="assets/images/mobileLogo.jpg" alt="" /></a>
+          </div>
+      </div>
+      <div class="rightHeaderPart">
+          <ul>
+              <li><img src="assets/images/login.jpg" /></li>
+              <li class="searchSec">
+                  <img src="assets/images/serach.jpg"  (click)="openSearch()" />
+                  <div class="searchBox" *ngIf="searchBox">
+                      <form>
+                          <input type="text" palceholder="Search" name="q"  />
+                          <input type="submit" value="Submit"  />
+                      </form>
+                  </div>
+              </li>
+              <li><img src="assets/images/feeback.jpg" /></li>
+          </ul>
+      </div>
+      <div class="mobileToggleNav" [@verticalOpen]="closeOrOpen">
+          <ul>
+              <li><a href="">LIVE</a></li>
+              <li><a href="">NEWSTAK</a></li>
+              <li><a href="">LIFETAK</a></li>
+              <li><a href="">TECHTAK</a></li>
+              <li><a href="">SPORTTAK</a></li>
+              <li><a href="">FOODTAK</a></li>
+              <li><a href="">ASTROTAK</a></li>
+              <li><a href="">YOGATAK</a></li>
+          </ul>
+      </div>
+      <div class="menuOverlay" [ngClass]="overlayClass" (click)="overlayEvent()"></div>
+  </header>
+</div>

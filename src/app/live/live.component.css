@@ -1,0 +1,12 @@
+/*Midd Section*/
+.meddSection{ float:  left; width: 100%;  margin-top: 20px}
+.meddSection li{ list-style:  none; float: left; width: 100%}
+.leftSec{ float:  left; width: 100%; margin: 10px 0; position:  relative}
+.leftSec img{ float:  left; margin-right: 20px; width: 40%}
+.youtubeIcon{ position:  absolute; bottom: 10px; left: 12px; height: 42px; width: 44px; }
+.leftSec h2{ color: #000; font:bold  20px arial;    height: 46px; overflow: hidden;}
+.leftSec h2 a{ color: #000; text-decoration: none}
+.leftSec h2 a:hover{ color: #c00}
+.leftSec p{ color: #8a8989; font: 14px/20px arial;    height: 60px;  overflow: hidden; margin-top: 10px;}
+.youtubeIcon img{ width: 100%; margin:auto}
+.topVideoSec iframe{ width: 100%; border: 0;}

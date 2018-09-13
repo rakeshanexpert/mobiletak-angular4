@@ -1,0 +1,12 @@
+
+<div class="mainContainer">  
+    <div class="meddSection story">
+        <ul>
+            <li *ngFor="let categoryData of serviceJsonData">
+                <img src="{{categoryData.snippet.thumbnails.high.url}}" />
+                <p>{{categoryData.snippet.description}}</p>
+            </li>
+        </ul>
+          
+       </div>
+</div>
